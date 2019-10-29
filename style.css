@@ -1,11 +1,7 @@
-img {
-    max-height: 125px;
-    max-width: 100%;
-    display: inline-block;
-    transition: max-height .14s ease;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.logo-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .navbar {
@@ -51,4 +47,19 @@ img {
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.container {
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    display: block;
+    cursor: default;
+    border-bottom: none;
+}
